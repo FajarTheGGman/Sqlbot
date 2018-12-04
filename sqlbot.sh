@@ -19,13 +19,16 @@ sleep 1
 toilet -f graffiti.flf Sqlbot --gay
 cd sqlmap
 echo ""
+echo "'\033[35;1m'"
 echo "<==========================================>"
 echo $purple "Coder : Fajar Firdaus"
 echo $purple "Fb : https://www.facebook.com/Ace.of.spades729"
 echo $purple "IG : fajar_firdaus_7"
 echo $purple "YT : iTech7732"
 echo "<==========================================>"
+echo "'\033[35;1m'"
 echo ""
+echo "'\033[31;1m'"
 echo "[#]=======================================[#]"
 echo $red "1.> Hack Database Dengan Dork"
 echo $red "2.> Auto Dump Email "
@@ -34,6 +37,7 @@ echo $red "4.> Hack Database dengan tor"
 echo $red "5.> Auto Dump Cc"
 echo $red "0.> Exit"
 echo "[#]=======================================[#]"
+echo "'\033[31;1m'"
 echo ""
 read -p "root@Sqlbot-#" bcd
 
