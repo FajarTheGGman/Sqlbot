@@ -6,3 +6,5 @@
 - Cari Password admin
 - Hack Database dengan tor
 - Auto Dump Cc
+
+Tutor ? Hekel koq minta tutor 
