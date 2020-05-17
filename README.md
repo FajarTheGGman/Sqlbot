@@ -7,4 +7,5 @@
 - Hack Database dengan tor
 - Auto Dump Cc
 
-Tutor ? Hekel koq minta tutor 
+# Buy Me Some Coffe :)
+![donate](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/donate.jpeg)
