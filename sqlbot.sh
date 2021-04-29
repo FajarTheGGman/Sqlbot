@@ -1,6 +1,4 @@
 #!/usr/bin/bash
-#Mau ngaopain tolo !!!!!!!!!
-#jan di recode gblk gw capek bikin nya !!!!
 #Copyright© 2018 By Fajar Fajar Firdaus
 clear
 pkg install python2 -y
